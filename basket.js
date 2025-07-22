@@ -3,3 +3,5 @@
  }
 
  const getMe = token => !!token
+
+ const register = username => !!username
