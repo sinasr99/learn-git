@@ -5,3 +5,7 @@
  const getMe = token => !!token
 
  const register = username => !!username
+
+const showItems = () => {
+    return ["item1", "item2", "item3"]
+}
