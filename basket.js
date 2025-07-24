@@ -11,5 +11,5 @@ const showItems = () => {
 }
 
 const logOut = () => {
- consolr.log("logged out")
+ console.log("logged out")
 }
