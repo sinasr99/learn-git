@@ -10,6 +10,9 @@ const showItems = () => {
     return ["item1", "item2", "item3"]
 }
 
+const rememberMe = remember => !!remember
+
 const logOut = () => {
- console.log("logged out")
+    console.log("user logged out")
+    return false
 }
