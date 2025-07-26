@@ -10,3 +10,5 @@ const login = (username, password) => {
 }
 
 const getMe = async token => !!token
+
+const blockUser = userId => !!userId
