@@ -8,3 +8,5 @@ const login = (username, password) => {
     }
     return false
 }
+
+const getMe = async token => !!token
